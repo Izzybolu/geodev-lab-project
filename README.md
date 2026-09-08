@@ -1,4 +1,4 @@
-## My GeoDev Lab Africa Project
+My GeoDev Lab Africa Project
 
 Which settlements in Ibadan North-East LGA sit in low-lying areas within 500m from the existing watercourses?
 
