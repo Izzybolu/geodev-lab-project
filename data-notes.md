@@ -3,7 +3,7 @@
 ## Ibadan North-East LGA boundary, extracted via QuickOSM
 - Source: Query: admin_level = 6 within Ibadan North-East extent
 - Extracted: 07/09/2026
-- 1 feature, polygons
+- 1 feature, polygon
 - Columns: full_id (text), osm_id (text), osm_type (text), admin_leve (text), old_name (text), name_en (text), alt_name (text), species_wi (text), species__1 (text), source_dat (text), name_zh (text), name_yo (text), wikipedia (text), wikidata (text), name_ru (text), official_n (text), name_ar (text), type (text), official_1 (text), name_fr (text), name (text), boundary (text)
 - There are nulls in old_name, name_en, alt_name, species_wi, species__1, name_zh, name_yo, name_ru, official_n, name_ar, official_1, name_fr
 - Covers the full extent of Ibadan North-East LGA
