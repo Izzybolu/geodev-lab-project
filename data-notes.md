@@ -37,3 +37,10 @@
 - Downloaded: 08/09/2026
 - Raster
 - After clipping the raw DEM to the extent of the Ibadan North-East LGA, assigning a value of 999999 to the NoData box, the output shows areas (around the edges) that are not covered by the clipped DEM
+
+## CRS and Preparation
+- All source layers were in EPSG: 4326 when downloaded
+- Study area: Ibadan North-East, extracted from OpenStreetMap via QuickOSM in QGIS
+- All layers (settlement extents, buildings, roads and DEM) have been clipped to the study area, then reprojected to EPSG: 32631 (UTM 31N)
+- Area check: Ibadan North-East is 13km2. Though it does not match published figure because the shapefile chosen differs from the widely acclaimed shape (similar to the one on GRID3). The reason for sticking to this one from QuickOSM is because it tallies with data from the governmental bodies like the Ibadan Urban Flood Management Project and the Ministry of Lands, Physical Planning and Urban Development.
+- Working files in data/processed, raw files untouched
