@@ -42,5 +42,5 @@
 - All source layers were in EPSG: 4326 when downloaded
 - Study area: Ibadan North-East, extracted from OpenStreetMap via QuickOSM in QGIS
 - All layers (settlement extents, buildings, roads and DEM) have been clipped to the study area, then reprojected to EPSG: 32631 (UTM 31N)
-- Area check: Ibadan North-East is 13km2. Though it does not match published figure because the shapefile chosen differs from the widely acclaimed shape (similar to the one on GRID3). The reason for sticking to this one from QuickOSM is because it tallies with data from the governmental bodies like the Ibadan Urban Flood Management Project and the Ministry of Lands, Physical Planning and Urban Development.
+- Area check: Ibadan North-East is 13km2. It does not match published figure because the shapefile chosen differs from the widely acclaimed shape (similar to the one on GRID3). The reason for sticking to this one from QuickOSM is because it tallies with data from the governmental bodies like the Ibadan Urban Flood Management Project and the Ministry of Lands, Physical Planning and Urban Development.
 - Working files in data/processed, raw files untouched
