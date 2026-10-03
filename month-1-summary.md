@@ -22,7 +22,8 @@ The fact that the initial buffer of 500m covered the whole study area surprised 
 None for now.
 
 ## What I still need
-I still need to carry out slope analysis to complement the buffer analysis.
+- I need to re-run the buffer analysis using 50m.
+- I still need to carry out slope analysis to complement the buffer analysis.
 
 ## My Map
 
