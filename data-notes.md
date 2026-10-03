@@ -16,7 +16,7 @@
 - All fields contain null, except full_id, osm_id, osm_type, building and type
 - It covers the full extent of Ibadan North-East LGA
 
-## Settlement extents - GRID3 - 
+## Settlement Extents v4.1 - GRID3 - 
 - Source: https://data.grid3.org/datasets/GRID3::grid3-nga-settlement-extents-v4-1/
 - Downloaded: 07/09/2026
 - 820 features, polygons
@@ -44,3 +44,33 @@
 - All layers (settlement extents, buildings, roads and DEM) have been clipped to the study area, then reprojected to EPSG: 32631 (UTM 31N)
 - Area check: Ibadan North-East is 13km2. It does not match published figure because the shapefile chosen differs from the widely acclaimed shape (similar to the one on GRID3). The reason for sticking to this one from QuickOSM is because it tallies with data from the governmental bodies like the Ibadan Urban Flood Management Project and the Ministry of Lands, Physical Planning and Urban Development.
 - Working files in data/processed, raw files untouched
+
+## Quality Checks
+
+### Settlement Extents v4.1
+- Completeness: There are no gaps in the settlement data. It covers the whole extent of the study area.
+- Currency: The version v4.1 is well appropriate for this project as it was published July 27, 2026 and last updated on September 11, 2026.
+- Positional accuracy: The data aligns well with satellite imagery and has no visible offset.
+- Attribute accuracy: Some of the attributes tally with the satellite imagery (like the block neighbour), but some do not. The ones that do not have no potential effect (like the building count in each settlement) as they can be sourced from other data.
+- Fitness for purpose: The data is adequate for the analysis required.
+
+### Ibadan North-East LGA Building footprints
+- Completeness: There are no gaps in the settlement data. It covers the whole extent of the study area.
+- Currency: The data when compared with satellite imagery is up to date as all buildings were captured.
+- Positional accuracy: The data aligns well with satellite imagery and has no visible offset.
+- Attribute accuracy: The available data attributes are adequate for the analysis.
+- Fitness for purpose: The data is adequate for the analysis required.
+
+### Watercourses in Ibadan North-East LGA
+- Completeness: The data covers all visible watercourses when overlayed on satellite imagery.
+- Currency: The data when compared with satellite imagery is up to date.
+- Positional accuracy: The data aligns well with satellite imagery and has no visible offset.
+- Attribute accuracy: The available data attributes are adequate for the analysis. However, some names are missing (all streams). This is not expected to affect the analysis as they drain into the other ones (rivers).
+- Fitness for purpose: The data is adequate for the analysis required.
+
+### Elevation data - Copernicus DEM GLO-30 
+- Completeness: The data covers all visible watercourses when overlayed on satellite imagery.
+- Currency: The DEM data is the most recent one available on the platform, last updated in 2024.
+- Positional accuracy: The data aligns well with the watercourse feature and has no visible offset.
+- Attribute accuracy: The available data attributes are adequate for the analysis.
+- Fitness for purpose: The data is adequate for the slope analysis required.
