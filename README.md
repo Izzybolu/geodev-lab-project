@@ -42,5 +42,7 @@ The data is not in this repository. Every source is linked in
 ## Month 2: development environment and early Python
 Week 5: set up Python, VS Code and the terminal. hello.py runs.
 
+---
+
 Israel ODETOLA · GeoDev Lab Africa
 Learn. Build. Collaborate. Transform.
