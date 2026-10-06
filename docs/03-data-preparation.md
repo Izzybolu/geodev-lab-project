@@ -57,7 +57,7 @@ What I reprojected, what I clipped, what I checked, and what I fixed.
 
 ## 4. Problems found, and what I did
 
-**<Problem.>** The issue encountered is just the gaps that were not filled by the clipped DEM. Since these gaps are little and are only around the edge, I expect that they would not affect the slope analysis.
+The issue encountered is just the gaps that were not filled by the clipped DEM. Since these gaps are little and are only around the edge, I expect that they would not affect the slope analysis.
 
 ---
 
